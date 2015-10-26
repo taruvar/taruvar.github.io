@@ -87,7 +87,7 @@
     <div class="welcome">
         <div class="container" id="welcome">
             <div class="intro-text">
-                <div class="intro-heading">PosiDiff Advisor Private Limited</div>
+                <div class="intro-heading"><b>PosiDiff Advisor Private Limited</b></div>
                 <div class="intro-lead-in">Making a Positive Difference</div>
                 <!-- <a href="#services" class="page-scroll btn btn-xl"></a> -->
             </div>
@@ -721,21 +721,15 @@
     <script>
     var w = $(window).height();
     var k = $(window).width();
-    if(w>550 && k>850)
+    if(w>550)
     {
         $('#welcome').css('min-height', w);
         $('#simplegallery').css('min-height',w-100);
     }
-    else if(w<550 && k>850)
+    else if(w<550)
     {
         w=550;
         $('#welcome').css('min-height', w);
-        $('#simplegallery').css('min-height',w);
-    }
-    if(k<850)
-    {
-        alert(k);
-        $('#welcome').css('min-height', w)
         $('#simplegallery').css('min-height',w);
     }
  </script>
