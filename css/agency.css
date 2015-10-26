@@ -279,8 +279,8 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .intro-text {
-    padding-top: 100px;
-    padding-bottom: 50px;
+    padding-top: 300px;
+    padding-bottom: 200px;
 }
 
 .intro-text .intro-lead-in {
@@ -288,16 +288,15 @@ fieldset[disabled] .btn-xl.active {
     font-family: Avenire;
     font-size: 18px;
     line-height: 22px;
-    background: #fed136;
+    background: rgba(254,209,54,0.85);
     padding-bottom: 10px;
 }
 
 .intro-text .intro-heading {
-    margin-bottom: 25px;
     font-family: Avenire;
-    font-size: 35px;
-    line-height: 50px;
-    background: #fed136;
+    font-size: 22px;
+    line-height: 26px;
+    background: rgba(254,209,54,0.85);
     padding-top : 10px;
 }
 
