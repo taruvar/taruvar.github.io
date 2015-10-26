@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<simpleviewergallery cropToFit="true"
+	useFlickr="false"
+	resizeOnImport="true"
+	thumbPosition="BOTTOM"
+	thumbRows="1"
+	thumbColumns="5"
+	showOpenButton="false"
+	showFullscreenButton="true"
+	frameWidth="5"
+	backgroundTransparent="false"
+	useFlash="false"
+	galleryWidth="100%"
+	useThumbDots="false"
+	useFullscreenExpand="true"
+
+>
+  <image imageURL="images/17.JPG"
+	thumbURL="thumbs/17.JPG"
+	linkURL="images/17.JPG"
+	linkTarget="_blank"
+	sourcePath="/Users/Taruvar/Desktop/SimpleViewer/images/17.JPG">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/16.JPG"
+	thumbURL="thumbs/16.JPG"
+	linkURL="images/16.JPG"
+	linkTarget="_blank"
+	sourcePath="/Users/Taruvar/Desktop/SimpleViewer/images/16.JPG">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/15.JPG"
+	thumbURL="thumbs/15.JPG"
+	linkURL="images/15.JPG"
+	linkTarget="_blank"
+	sourcePath="/Users/Taruvar/Desktop/SimpleViewer/images/15.JPG">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/14.JPG"
+	thumbURL="thumbs/14.JPG"
+	linkURL="images/14.JPG"
+	linkTarget="_blank"
+	sourcePath="/Users/Taruvar/Desktop/SimpleViewer/images/14.JPG">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/13.JPG"
+	thumbURL="thumbs/13.JPG"
+	linkURL="images/13.JPG"
+	linkTarget="_blank"
+	sourcePath="/Users/Taruvar/Desktop/SimpleViewer/images/13.JPG">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/12.JPG"
+	thumbURL="thumbs/12.JPG"
+	linkURL="images/12.JPG"
+	linkTarget="_blank"
+	sourcePath="/Users/Taruvar/Desktop/SimpleViewer/images/12.JPG">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/11.JPG"
+	thumbURL="thumbs/11.JPG"
+	linkURL="images/11.JPG"
+	linkTarget="_blank"
+	sourcePath="/Users/Taruvar/Desktop/SimpleViewer/images/11.JPG">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/10.JPG"
+	thumbURL="thumbs/10.JPG"
+	linkURL="images/10.JPG"
+	linkTarget="_blank"
+	sourcePath="/Users/Taruvar/Desktop/SimpleViewer/images/10.JPG">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/9.JPG"
+	thumbURL="thumbs/9.JPG"
+	linkURL="images/9.JPG"
+	linkTarget="_blank"
+	sourcePath="/Users/Taruvar/Desktop/SimpleViewer/images/9.JPG">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/8.JPG"
+	thumbURL="thumbs/8.JPG"
+	linkURL="images/8.JPG"
+	linkTarget="_blank"
+	sourcePath="/Users/Taruvar/Desktop/SimpleViewer/images/8.JPG">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/7.JPG"
+	thumbURL="thumbs/7.JPG"
+	linkURL="images/7.JPG"
+	linkTarget="_blank"
+	sourcePath="/Users/Taruvar/Desktop/SimpleViewer/images/7.JPG">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/6.JPG"
+	thumbURL="thumbs/6.JPG"
+	linkURL="images/6.JPG"
+	linkTarget="_blank"
+	sourcePath="/Users/Taruvar/Desktop/SimpleViewer/images/6.JPG">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/5.JPG"
+	thumbURL="thumbs/5.JPG"
+	linkURL="images/5.JPG"
+	linkTarget="_blank"
+	sourcePath="/Users/Taruvar/Desktop/SimpleViewer/images/5.JPG">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/4.JPG"
+	thumbURL="thumbs/4.JPG"
+	linkURL="images/4.JPG"
+	linkTarget="_blank"
+	sourcePath="/Users/Taruvar/Desktop/SimpleViewer/images/4.JPG">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/3.JPG"
+	thumbURL="thumbs/3.JPG"
+	linkURL="images/3.JPG"
+	linkTarget="_blank"
+	sourcePath="/Users/Taruvar/Desktop/SimpleViewer/images/3.JPG">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/2.JPG"
+	thumbURL="thumbs/2.JPG"
+	linkURL="images/2.JPG"
+	linkTarget="_blank"
+	sourcePath="/Users/Taruvar/Desktop/SimpleViewer/images/2.JPG">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/1.JPG"
+	thumbURL="thumbs/1.JPG"
+	linkURL="images/1.JPG"
+	linkTarget="_blank"
+	sourcePath="/Users/Taruvar/Desktop/SimpleViewer/images/1.JPG">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+</simpleviewergallery>
