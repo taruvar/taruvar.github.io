@@ -294,7 +294,7 @@ fieldset[disabled] .btn-xl.active {
 
 .intro-text .intro-heading {
     font-family: Avenire;
-    font-size: 22px;
+    font-size: 20px;
     line-height: 26px;
     background: rgb(254,209,54);
     padding-top : 10px;
@@ -309,14 +309,14 @@ fieldset[disabled] .btn-xl.active {
     .intro-text .intro-lead-in {
         margin-bottom: 25px;
         font-family: Avenire;
-        font-size: 30px;
+        font-size: 26px;
         line-height: 40px;
     }
 
     .intro-text .intro-heading {
         margin-bottom: 0px;
         font-family: Avenire;
-        font-size: 40px;
+        font-size: 33px;
         line-height: 40px;
     }
 }
