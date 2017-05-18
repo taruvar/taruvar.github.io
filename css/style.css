@@ -427,8 +427,8 @@
 	}
 
 	#our-works{
-		padding-top: 130px;
-		padding-bottom: 120px;
+		padding-top: 50px;
+		padding-bottom: 20px;
 	}
 
 	.portfolio-wrapper ul.filter{
@@ -503,8 +503,6 @@
 		color: #fff;
 	}
 
-
-
 /* 8. PRICING */
 	
 	#pricing{
@@ -570,7 +568,7 @@
 	#about-us .about-us{
 		padding-left: 15%;
 		padding-right: 15%;
-		padding-top: 15%;
+		padding-top: 10%;
 	}
 
 	#about-us .about-us h4{
