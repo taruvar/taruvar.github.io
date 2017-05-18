@@ -163,13 +163,15 @@
 		border: 0;
 		color: #fff;
 		padding: 10px 20px;
-		margin-top: 20px;
+		margin-bottom: 0px;
+		margin-top: 5px;
 		text-transform: uppercase;
 		-webkit-transition: all 0.2s ease-in-out;
 		-moz-transition: all 0.2s ease-in-out;
 		-ms-transition: all 0.2s ease-in-out;
 		-o-transition: all 0.2s ease-in-out;
 		transition: all 0.2s ease-in-out;
+		width:100%;
 	}
 
 	.btn-readmore:hover{
@@ -457,11 +459,11 @@
 
 	.portfolio-wrapper .portfolio-items{
 		clear: both;
+		margin-bottom: 20px;
 	}
 
 	.portfolio-wrapper .portfolio-content{
 		position: relative;
-		margin-bottom: 30px;
 	}
 
 	.portfolio-wrapper .portfolio-overlay{
@@ -501,6 +503,10 @@
 	}
 	.portfolio-wrapper .portfolio-overlay a:hover{
 		color: #fff;
+	}
+	.bottom{
+		bottom:0px !important;
+		top:0px !important;
 	}
 
 /* 8. PRICING */

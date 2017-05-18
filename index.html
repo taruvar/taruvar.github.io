@@ -27,6 +27,28 @@
 	  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 	  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 	<![endif]-->
+	<!--
+		var i=0;
+		$(document).ready(function(){
+			if(i==0)
+			{
+				$("#director").hide(1);
+		        $("#hide").hide(1);
+		        $("#show").show(1);
+		        i++;
+			}
+		    $("#hide").click(function(){
+		        $("#director").hide(1000);
+		        $("#hide").hide(1);
+		        $("#show").show(1);
+		    });
+		    $("#show").click(function(){
+		        $("#director").show(1000);
+		        $("#hide").show(1);
+		        $("#show").hide(1);
+		    });
+		});
+	</script>-->
 	
 </head>
 <body>
@@ -308,39 +330,46 @@
 				</div>
 
 				<div class="portfolio-wrapper" >
-				<!--
 					<div class="col-md-12">
 						<ul class="filter">  			
-							<li><a class="active" href="#" data-filter="*">All</a></li>	
-							<li><a href="#" data-filter=".elections">WordPress</a></li>
+							<li><a href="#" data-filter="*">All</a></li>	
+							<li><a class="active" href="#" data-filter=".major">Major Projects</a></li>
 							<li><a href="#" data-filter=".html">HTML</a></li>
 							<li><a href="#" data-filter=".graphic">graphic</a></li>
 							<li><a href="#" data-filter=".php">PHP</a></li>
 							<li><a href="#" data-filter=".bootstrap">bootstrap</a></li>
 						</ul>
 					</div>
-				-->
 					<div class="portfolio-items">		
-						<div class="col-lg-12 col-md-12 col-sm-12 work-grid html php">
+						<div class="col-lg-12 col-md-12 col-sm-12 work-grid major">
 							<div class="portfolio-content">
-								<div class="post-video"><iframe width="560" height="315" src="https://www.youtube.com/embed/D2bnsHHMZHM" frameborder="0" allowfullscreen></iframe></div>
-							
-								<!--	<iframe class="img-responsive" max-height="600px" src="https://www.youtube.com/embed/XGSy3_Czz8k"></iframe>
-								<!--<img class="img-responsive" src="images/works/portfolio-2.jpg" alt="">-->
+								<div class="col-sm-4" style="padding: 2px">
+									<div class="post-video">
+										<iframe width="560" height="315" src="https://www.youtube.com/embed/WQl_374jVT4" frameborder="0" allowfullscreen></iframe>
+									</div>
+								</div>
+								<div class="col-sm-4" style="padding: 2px">
+									<div class="post-video">
+										<iframe width="560" height="315" src="https://www.youtube.com/embed/D2bnsHHMZHM" frameborder="0" allowfullscreen></iframe>
+									</div>
+								</div>
+								<div class="col-sm-4" style="padding: 2px">
+									<div class="post-video">
+										<iframe width="560" height="315" src="https://www.youtube.com/embed/I9oDRty6MT0" frameborder="0" allowfullscreen></iframe>
+									</div>
+								</div>
 								<div style="padding: 5px; text-align: justify-all;">
 									<h5>Indian Gramin Cricket League</h5>
 									<p>Be it fast paced cities, laid back towns or dusty villages, be it India or Bharat, the one common thread that runs through all these culturally, economically and socially diverse zones is cricket. Recent successes of the Indian team showcase the immense cricketing talent that exists in our hinterlands. The Indian Gramin Cricket League was conceptualised with the very intent of discovering and catapulting this talent.</p>
 									<p>Posidiff Advisor Pvt Ltd is privileged to have been associated with the IGCL. We undertook brand management of IGCL with promotional films, booklets and brochures. This enabled IGCL expand its footprint beyond Uttar Pradesh with teams from other States including West Bengal, Haryana and Rajasthan vying for top honours. It earned accolades from none other than the Chief Minister of Uttar Pradesh for the high footfalls. An important spin-off benefit has been the boost in self-confidence of the youngsters from rural areas - a chance to show that they too can mean something; that they too can achieve.</p>
 									<p>cYyk ?kqek,axs] fdLer cuk,axs... (We will swing the bat, and make our fortunes)</p>
-
 								</div>
 							</div>	
 						</div>
-		
 					</div>
 
 					<div class="portfolio-items">
-						<div class="col-lg-6 col-md-6 col-sm-12 work-grid wordpress graphic">
+						<div class="col-lg-6 col-md-6 col-sm-12 work-grid wordpress major">
 							<div class="portfolio-content">
 								<img class="img-responsive" src="images/works/portfolio-1.jpg" alt="">
 								<div style="padding: 5px; text-align: justify-all;">
@@ -353,7 +382,7 @@
 							</div>	
 						</div>
 						
-						<div class="col-lg-6 col-md-6 col-sm-12 work-grid html php">
+						<div class="col-lg-6 col-md-6 col-sm-12 work-grid major">
 							<div class="portfolio-content">
 								<img class="img-responsive" src="images/works/realestate.JPG" alt="">
 								<div style="padding: 5px; text-align: justify-all;">
@@ -367,176 +396,197 @@
 						</div>
 
 					</div>
-					<div class="portfolio-items">
-						<div class="col-lg-4 col-md-6 col-sm-12 work-grid elections">
-							<div class="portfolio-content">
-								<img class="img-responsive" src="images/works/portfolio-3.jpg" alt="">
-								<div style="padding: 5px; text-align: justify-all;">
-									<h5>‘Unfolding Indian Elections: Journey of a living democracy’</h5>
-									<p>A coffee table book by  the Election Commision of India, published by Publications Division was released on National Voters’ Day (25th January) 2017 , in the august presence of the Hon’ble President of India, Sh. Pranab Mukherjee.</p>
+					<!--<button class="btn btn-readmore" id="show">More Info </button>
+					<button class="btn btn-readmore" id="hide">Less Info </button>-->
+					<div id="director"> 
+						<div class="portfolio-items">
+							<div class="col-lg-4 col-md-6 col-sm-12 work-grid elections">
+							<a href="http://www.amazon.in/Unfolding-Indian-Elections-Journey-Democracy/dp/8123023359" target="_blank">
+								<div class="portfolio-content">
+									<img class="img-responsive" src="images/works/portfolio-3.jpg" alt="">
+									<a href="http://www.amazon.in/Unfolding-Indian-Elections-Journey-Democracy/dp/8123023359" class="btn btn-readmore" target="_blank">More Info</a>
+									<div style="padding: 5px; text-align: justify-all;">
+										<h5>‘Unfolding Indian Elections: Journey of a living democracy’</h5>
+										<p>A coffee table book by  the Election Commision of India, published by Publications Division was released on National Voters’ Day (25th January) 2017 , in the august presence of the Hon’ble President of India, Sh. Pranab Mukherjee.</p>
+									</div>	
 								</div>
-							</div>	
-						</div>
-						<div class="col-lg-4 col-md-6 col-sm-12 work-grid elections">
-							<div class="portfolio-content">
-								<img class="img-responsive" src="images/works/portfolio-4.jpg" alt="">
-								<div style="padding: 5px; text-align: justify-all;">
-									<h5>‘Belief in the Ballot’</h5>
-									<p>A book by the Election Commision of India on 101 Human Stories from Indian Elections, published by Publications Division released on National Voters’ Day (25th January) 2016  in the august presence of the Hon’ble President of India, Sh. Pranab Mukherjee.</p>
+							</a>
+							</div>		
+							<div class="col-lg-4 col-md-6 col-sm-12 work-grid elections">
+							<a href="http://www.amazon.in/Belief-Ballot-Dr-Nasim-Zaidi/dp/8123020899" target="_blank">
+								<div class="portfolio-content">
+									<img class="img-responsive" src="images/works/portfolio-4.jpg" alt="">
+									<a href="http://www.amazon.in/Belief-Ballot-Dr-Nasim-Zaidi/dp/8123020899" class="btn btn-readmore" target="_blank">More Info</a>
+									<div style="padding: 5px; text-align: justify-all;">
+										<h5>‘Belief in the Ballot’</h5>
+										<p>A book by the Election Commision of India on 101 Human Stories from Indian Elections, published by Publications Division released on National Voters’ Day (25th January) 2016  in the august presence of the Hon’ble President of India, Sh. Pranab Mukherjee.</p>
+									</div>
 								</div>
-							</div>	
-						</div>
-						<div class="col-lg-4 col-md-6 col-sm-12 work-grid elections">
-							<div class="portfolio-content">
-								<img class="img-responsive" src="images/works/nvf.jpg" alt="">
-								<div style="padding: 5px; text-align: justify-all;">
-									<h5>‘National Voters’ Fest’</h5>
-									<p>A compilation of events and activities during Matdata Mahotsav (Festival of Voters) which also captures the essence of SVEEP (Systematic Voters’ Education & Electoral Participation), the voter education and outreach programme of the Election Commision of India.</p>
+							</a>
+							</div>
+							<div class="col-lg-4 col-md-6 col-sm-12 work-grid elections">
+							<a href="http://www.amazon.in/Belief-Ballot-Dr-Nasim-Zaidi/dp/8123020899" target="_blank">
+								<div class="portfolio-content">
+									<img class="img-responsive" src="images/works/nvf.jpg" alt="">
+									<a href="http://www.amazon.in/Belief-Ballot-Dr-Nasim-Zaidi/dp/8123020899" class="btn btn-readmore" target="_blank">More Info</a>
+									<div style="padding: 5px; text-align: justify-all;">
+										<h5>‘National Voters’ Fest’</h5>
+										<p>A compilation of events and activities during Matdata Mahotsav (Festival of Voters) which also captures the essence of SVEEP (Systematic Voters’ Education & Electoral Participation), the voter education and outreach programme of the Election Commision of India.</p>
+									</div>
 								</div>
-							</div>	
+							</a>	
+							</div>
 						</div>
-					</div>
-					<div class="portfolio-items">
-						<div class="col-lg-4 col-md-6 col-sm-12 work-grid elections">
-							<div class="portfolio-content">
-								<img class="img-responsive" src="images/works/votereducation.jpg" alt="">
-								<div style="padding: 5px; text-align: justify-all;">
-									<h5>’International conference on ‘Voter Education for Inclusive, Informed and Ethical participation’</h5>
-									<p>Active involvement in the conference organized by ECI from 19th - 21st October 2016 at New Delhi with global participation from 25 countries from 6 continents and numerous organizations like UNDP, IDEA and IFES etc. The involvement included coordinating and conducting the conference as also preparation of website, Conference Booklet, Conference Reader, draft resolution as also designing of folders, schedules, pamphlets, kits, conference bags, passes and all other related material for the conference.</p>
+						<div class="portfolio-items">
+							<div class="col-lg-4 col-md-6 col-sm-12 work-grid elections">
+							<a href="http://ecisveep.nic.in/IC/homeic.html" target="_blank">
+								<div class="portfolio-content">
+									<img class="img-responsive" src="images/works/votereducation.jpg" alt="">
+									<a href="http://ecisveep.nic.in/IC/homeic.html" class="btn btn-readmore" target="_blank">More Info</a>
+									<div style="padding: 5px; text-align: justify-all;">
+										<h5>’International conference on ‘Voter Education for Inclusive, Informed and Ethical participation’</h5>
+										<p>Active involvement in the conference organized by ECI from 19th - 21st October 2016 at New Delhi with global participation from 25 countries from 6 continents and numerous organizations like UNDP, IDEA and IFES etc. The involvement included coordinating and conducting the conference as also preparation of website, Conference Booklet, Conference Reader, draft resolution as also designing of folders, schedules, pamphlets, kits, conference bags, passes and all other related material for the conference.</p>
+									</div>
 								</div>
-							</div>	
-						</div>
-						<div class="col-lg-4 col-md-6 col-sm-12 work-grid elections">
-							<div class="portfolio-content">
-								<img class="img-responsive" src="images/works/matdata.JPG" alt="">
-								<div style="padding: 5px; text-align: justify-all;">
-									<h5>‘Matdata Mahotsav’</h5>
-									<p>Creation of movies of duration 5, 15 and 30 minutes - scripting, editing and giving final shape along with an agency. The three movies covered the events and activities of the ‘Matdata Mahotsav’ in varying detail.</p>
+							</a>	
+							</div>
+							<div class="col-lg-4 col-md-6 col-sm-12 work-grid Health&Nutrition">
+								<div class="portfolio-content">
+									<img class="img-responsive" src="images/works/smiles.jpg" alt="">
+									<div style="padding: 5px; text-align: justify-all;">
+										<h5>Transforming Lives, Spreading Smiles</h5>
+										<p>Authored a book for UNWFP (United Nations World Food Programme):‘Transforming Lives, Spreading Smiles’ - A Food for Work (FFW) programme - Joint initiative by World Food Programme (WFP) & Forest Department Uttar Pradesh. FFW had the mandate to provide food in remote food deficit areas to forestry workers and the document showcases the success of the programme in addressing the cause of the poorest of the poor. The document involved intensive tour of interior forests of Uttar Pradesh to accumulate case studies and photograph the ground realities. The document was appreciated widely and earned accolades at he UNWFP headquarters in Paris.</p>
+									</div>
 								</div>
-							</div>	
+							</div>
+							<div class="col-lg-4 col-md-6 col-sm-12 work-grid elections">
+							<a href="http://voicenet.in/" target="_blank">
+								<div class="portfolio-content">
+									<img class="img-responsive" src="images/works/voice.JPG" alt="">
+									<a href="http://voicenet.in/" class="btn btn-readmore" target="_blank">More Info</a>
+									<div style="padding: 5px; text-align: justify-all;">
+										<h5>‘VoICE.NET and VoICE International’</h5>
+										<p>Management of content on VoICE.NET (Voters’ Information, Communication and Education Network), an online knowledge portal on voter education. It has 23 nations as also renowned organizations across the world as its members.</p> <p>VoICE International is quarterly e-magazine on voter education at VoICE.NET portal. </p>
+									</div>
+								</div>	
+							</a>
+							</div>
 						</div>
-						<div class="col-lg-4 col-md-6 col-sm-12 work-grid elections">
-							<div class="portfolio-content">
-								<img class="img-responsive" src="images/works/voice.JPG" alt="">
-								<div style="padding: 5px; text-align: justify-all;">
-									<h5>‘VoICE.NET and VoICE International’</h5>
-									<p>Management of content on VoICE.NET (Voters’ Information, Communication and Education Network), an online knowledge portal on voter education. It has 23 nations as also renowned organizations across the world as its members.</p> <p>VoICE International is quarterly e-magazine on voter education at VoICE.NET portal. </p>
-								</div>
-							</div>	
-						</div>
-					</div>
-					<div class="portfolio-items">
-						<div class="col-lg-4 col-md-6 col-sm-12 work-grid elections">
-							<div class="portfolio-content">
-								<img class="img-responsive" src="images/works/kaleidoscope.jpg" alt="">
-								<div style="padding: 5px; text-align: justify-all;">
-									<h5>‘Kaleidoscope’</h5>
-									<p>A photo book on 151 best SVEEP initiatives by U.P during 2014 Lok Sabha elections released by CEO office, Uttar Pradesh in January 2016. </p>
-								</div>
-							</div>	
-						</div>
+						<div class="portfolio-items">
+							<div class="col-lg-4 col-md-6 col-sm-12 work-grid elections">
+								<div class="portfolio-content">
+									<img class="img-responsive" src="images/works/kaleidoscope.jpg" alt="">
+									<div style="padding: 5px; text-align: justify-all;">
+										<h5>‘Kaleidoscope’</h5>
+										<p>A photo book on 151 best SVEEP initiatives by U.P during 2014 Lok Sabha elections released by CEO office, Uttar Pradesh in January 2016. </p>
+									</div>
+								</div>	
+							</div>
 
-						<div class="col-lg-4 col-md-6 col-sm-12 work-grid elections">
+							<div class="col-lg-4 col-md-6 col-sm-12 work-grid elections">
+								<div class="portfolio-content">
+									<img class="img-responsive" src="images/works/stimulus.jpg" alt="">
+									<div style="padding: 5px; text-align: justify-all;">
+										<h5>Stimulus</h5>
+										<p>Collection of Innovative Practices in U.P Assembly General Elections, 2012 under the aegis of office of CEO U.P.  It was released by the Hon’ble Governor of U.P. in 2013, and distributed in 21 nations all over the world.</p>
+									</div>
+								</div>	
+							</div>
+							
+							<div class="col-lg-4 col-md-6 col-sm-12 work-grid elections">
+								<div class="portfolio-content">
+									<img class="img-responsive" src="images/works/odyssey.jpg" alt="">
+									<div style="padding: 5px; text-align: justify-all;">
+										<h5>‘Odyssey’</h5>
+										<p>A kaleidoscopic journey of U.P Assembly Elections 2012 under the aegis of office of CEO U.P. It was released by the Hon’ble Governor of U.P. in 2013, and distributed in 21 nations all over the world.</p>
+									</div>
+								</div>	
+							</div>
+						</div>
+						<div class="portfolio-items">
+							<div class="col-lg-4 col-md-6 col-sm-12 work-grid Health&Nutrition">
+								<div class="portfolio-content">
+									<img class="img-responsive" src="images/works/enlightened.jpg" alt="">
+									<div style="padding: 5px; text-align: justify-all;">
+										<h5>‘Enhancing Lives..Radiating Smiles’</h5>
+										<p>Prepared (content & design) a photobook ‘Enhancing Lives..Radiating Smiles’ for State Nutrition Mission (SNM) Uttar Pradesh. The book is a journey of State Nutrition Mission from conception to strategy with an account of State wide initiative and District level initiatives to the achievements as also the way ahead. Released in January 2017.</p>
+									</div>
+								</div>	
+							</div>
+							<div class="col-lg-4 col-md-6 col-sm-12 work-grid Health&Nutrition">
+								<div class="portfolio-content">
+									<img class="img-responsive" src="images/works/voter.jpg" alt="">
+									<div style="padding: 5px; text-align: justify-all;">
+										<h5>Enlightened Voter</h5>
+										<p>Editor of ‘Enlightened Voter’, e-Newsletter of Chief Electoral Officer (CEO, U.P) in August 2013 & December 2013 and a booklet on Voter Awareness Express in January 2014</p>
+									</div>
+								</div>	
+							</div>
+							<div class="col-lg-4 col-md-6 col-sm-12 work-grid Health&Nutrition">
+								<div class="portfolio-content">
+									<img class="img-responsive" src="images/works/ffw.jpg" alt="">
+									<div style="padding: 5px; text-align: justify-all;">
+										<h5>Food for work</h5>
+										<p>Authored a book for UNWFP (United Nations World Food Programme):‘Food For Work (FFW) in Uttarakhand’ - A joint collaboration of the World Food Programme (WFP) & Forest department, Government of Uttrakhand. The document highlights the model initiatives taken under the FFW Programme to create sustainable livelihood for people who reside in forests.It involved extensive touring and data collection.</p>
+									</div>
+								</div>	
+							</div>
+						</div>
+						<div class="portfolio-items">
+
+							<div class="col-lg-4 col-md-6 col-sm-12 work-grid elections">
+								<div class="portfolio-content">
+									<img class="img-responsive" src="images/works/matdata.JPG" alt="">
+									<div style="padding: 5px; text-align: justify-all;">
+										<h5>‘Matdata Mahotsav’</h5>
+										<p>Creation of movies of duration 5, 15 and 30 minutes - scripting, editing and giving final shape along with an agency. The three movies covered the events and activities of the ‘Matdata Mahotsav’ in varying detail.</p>
+									</div>
+								</div>	
+							</div>
+							
+							<!--
+							<div class="col-lg-4 col-md-6 col-sm-12 work-grid html php bootstrap">
+								<div class="portfolio-content">
+									<img class="img-responsive" src="images/works/portfolio-4.jpg" alt="">
+									<div class="portfolio-overlay">
+										<a href="images/works/portfolio-4.jpg"><i class="fa fa-camera-retro"></i></a>
+										<h5>Web Development</h5>
+										<p>Design, Develop</p>
+									</div>
+								</div>	
+							</div>
+							
+							<div class="col-lg-4 col-md-6 col-sm-12 work-grid wordpress graphic php">
+								<div class="portfolio-content">
+									<img class="img-responsive" src="images/works/portfolio-5.jpg" alt="">
+									<div class="portfolio-overlay">
+										<a href="images/works/portfolio-5.jpg"><i class="fa fa-camera-retro"></i></a>
+										<h5>Web Development</h5>
+										<p>Design, Develop</p>
+									</div>
+								</div>	
+							</div>
+							
+							<div class="col-lg-4 col-md-6 col-sm-12 work-grid html bootstrap graphic">
+								<div class="portfolio-content">
+									<img class="img-responsive" src="images/works/portfolio-6.jpg" alt="">
+									<div class="portfolio-overlay">
+										<a href="images/works/portfolio-6.jpg"><i class="fa fa-camera-retro"></i></a>
+										<h5>Web Development</h5>
+										<p>Design, Develop</p>
+									</div>
+								</div>	
+							</div>
+							-->
+						</div>
+						<div class="col-sm-12">
 							<div class="portfolio-content">
-								<img class="img-responsive" src="images/works/stimulus.jpg" alt="">
-								<div style="padding: 5px; text-align: justify-all;">
-									<h5>Stimulus</h5>
-									<p>Collection of Innovative Practices in U.P Assembly General Elections, 2012 under the aegis of office of CEO U.P.  It was released by the Hon’ble Governor of U.P. in 2013, and distributed in 21 nations all over the world.</p>
-								</div>
-							</div>	
-						</div>
-						
-						<div class="col-lg-4 col-md-6 col-sm-12 work-grid elections">
-							<div class="portfolio-content">
-								<img class="img-responsive" src="images/works/odyssey.jpg" alt="">
-								<div style="padding: 5px; text-align: justify-all;">
-									<h5>‘Odyssey’</h5>
-									<p>A kaleidoscopic journey of U.P Assembly Elections 2012 under the aegis of office of CEO U.P. It was released by the Hon’ble Governor of U.P. in 2013, and distributed in 21 nations all over the world.</p>
-								</div>
-							</div>	
-						</div>
-					</div>
-					<div class="portfolio-items">
-						<div class="col-lg-4 col-md-6 col-sm-12 work-grid Health&Nutrition">
-							<div class="portfolio-content">
-								<img class="img-responsive" src="images/works/enlightened.jpg" alt="">
-								<div style="padding: 5px; text-align: justify-all;">
-									<h5>‘Enhancing Lives..Radiating Smiles’</h5>
-									<p>Prepared (content & design) a photobook ‘Enhancing Lives..Radiating Smiles’ for State Nutrition Mission (SNM) Uttar Pradesh. The book is a journey of State Nutrition Mission from conception to strategy with an account of State wide initiative and District level initiatives to the achievements as also the way ahead. Released in January 2017.</p>
-								</div>
-							</div>	
-						</div>
-						<div class="col-lg-4 col-md-6 col-sm-12 work-grid Health&Nutrition">
-							<div class="portfolio-content">
-								<img class="img-responsive" src="images/works/voter.jpg" alt="">
-								<div style="padding: 5px; text-align: justify-all;">
-									<h5>Enlightened Voter</h5>
-									<p>Editor of ‘Enlightened Voter’, e-Newsletter of Chief Electoral Officer (CEO, U.P) in August 2013 & December 2013 and a booklet on Voter Awareness Express in January 2014</p>
-								</div>
-							</div>	
-						</div>
-						<div class="col-lg-4 col-md-6 col-sm-12 work-grid Health&Nutrition">
-							<div class="portfolio-content">
-								<img class="img-responsive" src="images/works/ffw.jpg" alt="">
-								<div style="padding: 5px; text-align: justify-all;">
-									<h5>Food for work</h5>
-									<p>Authored a book for UNWFP (United Nations World Food Programme):‘Food For Work (FFW) in Uttarakhand’ - A joint collaboration of the World Food Programme (WFP) & Forest department, Government of Uttrakhand. The document highlights the model initiatives taken under the FFW Programme to create sustainable livelihood for people who reside in forests.It involved extensive touring and data collection.</p>
-								</div>
-							</div>	
-						</div>
-					</div>
-					<div class="portfolio-items">
-						<div class="col-lg-4 col-md-6 col-sm-12 work-grid Health&Nutrition">
-							<div class="portfolio-content">
-								<img class="img-responsive" src="images/works/smiles.jpg" alt="">
-								<div style="padding: 5px; text-align: justify-all;">
-									<h5>Transforming Lives, Spreading Smiles</h5>
-									<p>Authored a book for UNWFP (United Nations World Food Programme):‘Transforming Lives, Spreading Smiles’ - A Food for Work (FFW) programme - Joint initiative by World Food Programme (WFP) & Forest Department Uttar Pradesh. FFW had the mandate to provide food in remote food deficit areas to forestry workers and the document showcases the success of the programme in addressing the cause of the poorest of the poor. The document involved intensive tour of interior forests of Uttar Pradesh to accumulate case studies and photograph the ground realities. The document was appreciated widely and earned accolades at he UNWFP headquarters in Paris.</p>
-								</div>
-							</div>	
-						</div>
-						<!--
-						<div class="col-lg-4 col-md-6 col-sm-12 work-grid html php bootstrap">
-							<div class="portfolio-content">
-								<img class="img-responsive" src="images/works/portfolio-4.jpg" alt="">
-								<div class="portfolio-overlay">
-									<a href="images/works/portfolio-4.jpg"><i class="fa fa-camera-retro"></i></a>
-									<h5>Web Development</h5>
-									<p>Design, Develop</p>
-								</div>
-							</div>	
-						</div>
-						
-						<div class="col-lg-4 col-md-6 col-sm-12 work-grid wordpress graphic php">
-							<div class="portfolio-content">
-								<img class="img-responsive" src="images/works/portfolio-5.jpg" alt="">
-								<div class="portfolio-overlay">
-									<a href="images/works/portfolio-5.jpg"><i class="fa fa-camera-retro"></i></a>
-									<h5>Web Development</h5>
-									<p>Design, Develop</p>
-								</div>
-							</div>	
-						</div>
-						
-						<div class="col-lg-4 col-md-6 col-sm-12 work-grid html bootstrap graphic">
-							<div class="portfolio-content">
-								<img class="img-responsive" src="images/works/portfolio-6.jpg" alt="">
-								<div class="portfolio-overlay">
-									<a href="images/works/portfolio-6.jpg"><i class="fa fa-camera-retro"></i></a>
-									<h5>Web Development</h5>
-									<p>Design, Develop</p>
-								</div>
-							</div>	
-						</div>
-						-->
-					</div>
-					<div class="col-sm-12">
-						<div class="portfolio-content">
-							Disclaimer: '<b>*</b>' signifies that the particular project was undertaken by Dr Aarti Aggarwal, Executive Director of Posidiff Advisor Pvt Ltd, in her individual capacity as a consultant engaged by the concerned organisation which has all rights to this work.
-						</div>
-					</div>				
+								Disclaimer: '<b>*</b>' signifies that the particular project was undertaken by Dr Aarti Aggarwal, Executive Director of Posidiff Advisor Pvt Ltd, in her individual capacity as a consultant engaged by the concerned organisation which has all rights to this work.
+							</div>
+						</div>	
+				</div>			
+				
 				</div>
-
 			</div>
 		</div>
 	</section>
@@ -816,7 +866,6 @@
 	<script type="text/javascript" src="js/jquery.counterup.min.js"></script><!-- CounterUp -->
 	<script type="text/javascript" src="js/waypoints.min.js"></script><!-- CounterUp -->
 	<script type="text/javascript" src="js/jquery.isotope.min.js"></script><!-- isotope -->
-	<script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script><!-- magnific-popup -->
 	<script type="text/javascript" src="js/scripts.js"></script><!-- Scripts -->
 
 
