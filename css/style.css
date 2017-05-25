@@ -35,8 +35,6 @@
 	@import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,500,600');
 
 
-
-
 /* 2. BASIC STYLES */
 
 	html, body {
@@ -44,7 +42,7 @@
 	}
 
 	body {
-		font-family: "Raleway", Helvetica, Arial, sans-serif;
+		font-family:"Raleway", Helvetica, Arial, sans-serif;
 		font-size: 15px;
 		font-weight: 500;
 		line-height: 1.7857;
@@ -89,7 +87,6 @@
 	h1, h2, h3, h4, h5, h6{
 		font-family: 'Montserrat', sans-serif;
 	}
-
 	input, textarea{
 		outline: none;
 	}
@@ -507,6 +504,14 @@
 	.bottom{
 		bottom:0px !important;
 		top:0px !important;
+	}
+
+	.display_none{
+		display: none;
+	}
+
+	.hindi_text {
+    font-family: 'Hind', sans-serif;
 	}
 
 /* 8. PRICING */

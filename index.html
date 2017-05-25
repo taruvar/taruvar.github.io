@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title>Posidiff Advisor Private Limited</title>
 	
 	<!-- Main CSS file -->
@@ -20,6 +19,8 @@
 	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/icon/apple-touch-icon-114-precomposed.png">
 	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/icon/apple-touch-icon-72-precomposed.png">
 	<link rel="apple-touch-icon-precomposed" href="images/icon/apple-touch-icon-57-precomposed.png">
+	<link href="https://fonts.googleapis.com/css?family=Hind:300,400,500,600,700&amp;subset=devanagari,latin-ext" rel="stylesheet">
+
 	
 	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -27,28 +28,22 @@
 	  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 	  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 	<![endif]-->
-	<!--
-		var i=0;
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script>
 		$(document).ready(function(){
-			if(i==0)
-			{
-				$("#director").hide(1);
-		        $("#hide").hide(1);
-		        $("#show").show(1);
-		        i++;
-			}
 		    $("#hide").click(function(){
-		        $("#director").hide(1000);
-		        $("#hide").hide(1);
-		        $("#show").show(1);
+		        $("#director").toggle([10]);    
+		        $("#hide").toggle([0]);
+		        $("#show").toggle([10]);
+
 		    });
 		    $("#show").click(function(){
-		        $("#director").show(1000);
-		        $("#hide").show(1);
-		        $("#show").hide(1);
+		        $("#director").toggle([10]);
+		        $("#show").toggle([0]);
+		        $("#hide").toggle([10]);
 		    });
 		});
-	</script>-->
+	</script>
 	
 </head>
 <body>
@@ -106,7 +101,7 @@
 					<div class="carousel-caption container">
 						<div class="row">
 							<div class="col-sm-7">
-								<h2 style="color:rgb(255,0,0)"> Posidiff </style></h2>
+								<h2><span style="color:rgb(43,96,208)"> Posi</span><span style="color:rgb(236,134,40)">diff</span></h2>
 								<h1>Making a +ve difference</h1>
 							</div>
 						</div>
@@ -116,7 +111,7 @@
 					<div class="carousel-caption container">
 						<div class="row">
 							<div class="col-sm-7">
-								<h2 style="color:rgb(255,0,0)"> Posidiff </style></h2>
+								<h2><span style="color:rgb(43,96,208)"> Posi</span><span style="color:rgb(236,134,40)">diff</span></h2>
 								<h1>Strategizing for you.</h1>
 							</div>
 						</div>
@@ -126,7 +121,7 @@
 					<div class="carousel-caption container">
 						<div class="row">
 							<div class="col-sm-7">
-								<h2 style="color:rgb(255,0,0)"> Posidiff </style></h2>
+								<h2><span style="color:rgb(43,96,208)"> Posi</span><span style="color:rgb(236,134,40)">diff</span></h2>
 								<h1>Helping you choose the right path.</h1>
 							<!--
 								<h1>You are entire </h1>
@@ -141,7 +136,7 @@
 					<div class="carousel-caption container">
 						<div class="row">
 							<div class="col-sm-7">
-								<h2 style="color:rgb(255,0,0)"> Posidiff </style></h2>
+								<h2><span style="color:rgb(43,96,208)"> Posi</span><span style="color:rgb(236,134,40)">diff</span></h2>
 								<h1>Helping you fix your problems</h1>
 							</div>
 						</div>
@@ -157,25 +152,19 @@
 	<section id="fun-facts">
 		<div class="container">
 			<div class="row">
-				<div class="col-sm-6 col-md-3">
-					<div class="fun-fact text-center">
-						<h3><i class="fa fa-thumbs-o-up"></i> <span class="st-counter">365</span></h3>
-						<p>Happy Clients</p>
-					</div>
-				</div>
-				<div class="col-sm-6 col-md-3">
+				<div class="col-sm-4 col-md-4">
 					<div class="fun-fact text-center">
 						<h3><i class="fa fa-briefcase fa-6"></i> <span class="st-counter">73987</span></h3>
 						<p>Revisions</p>
 					</div>
 				</div>
-				<div class="col-sm-6 col-md-3">
+				<div class="col-sm-4 col-md-4">
 					<div class="fun-fact text-center">
 						<h3><i class="fa fa-coffee"></i> <span class="st-counter">297345</span></h3>
 						<p>Cups of Coffee</p>
 					</div>
 				</div>
-				<div class="col-sm-6 col-md-3">
+				<div class="col-sm-4 col-md-4">
 					<div class="fun-fact text-center">
 						<h3><i class="fa fa-code"></i> <span class="st-counter">9823686</span></h3>
 						<p>Lines of Code</p>
@@ -290,7 +279,7 @@
 
 				<div class="col-md-4 col-sm-6 st-service">
 					<h2><i class="fa fa-cogs"></i>Performance Improvement</h2>
-					<p>\Enabling companies to grow revenue, improve margins and reposition quickly.</p>
+					<p>Enabling companies to grow revenue, improve margins and reposition quickly.</p>
 				</div>
 
 				<div class="col-md-4 col-sm-6 st-service">
@@ -304,8 +293,8 @@
 				</div>
 
 				<div class="col-md-4 col-sm-6 st-service">
-					<h2><i class="fa fa-life-ring"></i> Advanced Analytics</h2>
-					<p>Strategy experience and analytical expertise combine to enable decision making and create value.</p>
+					<h2><i class="fa fa-life-ring"></i>Communication</h2>
+					<p>Branding and GTM strategy advice to initiatives in the policy & social service space.</p>
 				</div>
 
 				<div class="col-md-4 col-sm-6 st-service">
@@ -330,17 +319,19 @@
 				</div>
 
 				<div class="portfolio-wrapper" >
+				<!--
 					<div class="col-md-12">
 						<ul class="filter">  			
-							<li><a href="#" data-filter="*">All</a></li>	
-							<li><a class="active" href="#" data-filter=".major">Major Projects</a></li>
+							<li><a class="active" href="#" data-filter="*">All</a></li>	
+							<li><a href="#" data-filter=".major">Major Projects</a></li>
 							<li><a href="#" data-filter=".html">HTML</a></li>
 							<li><a href="#" data-filter=".graphic">graphic</a></li>
 							<li><a href="#" data-filter=".php">PHP</a></li>
 							<li><a href="#" data-filter=".bootstrap">bootstrap</a></li>
 						</ul>
 					</div>
-					<div class="portfolio-items">		
+				-->
+					<div class="portfolio-item">		
 						<div class="col-lg-12 col-md-12 col-sm-12 work-grid major">
 							<div class="portfolio-content">
 								<div class="col-sm-4" style="padding: 2px">
@@ -359,47 +350,47 @@
 									</div>
 								</div>
 								<div style="padding: 5px; text-align: justify-all;">
-									<h5>Indian Gramin Cricket League</h5>
+									<h4>Indian Gramin Cricket League</h4>
 									<p>Be it fast paced cities, laid back towns or dusty villages, be it India or Bharat, the one common thread that runs through all these culturally, economically and socially diverse zones is cricket. Recent successes of the Indian team showcase the immense cricketing talent that exists in our hinterlands. The Indian Gramin Cricket League was conceptualised with the very intent of discovering and catapulting this talent.</p>
 									<p>Posidiff Advisor Pvt Ltd is privileged to have been associated with the IGCL. We undertook brand management of IGCL with promotional films, booklets and brochures. This enabled IGCL expand its footprint beyond Uttar Pradesh with teams from other States including West Bengal, Haryana and Rajasthan vying for top honours. It earned accolades from none other than the Chief Minister of Uttar Pradesh for the high footfalls. An important spin-off benefit has been the boost in self-confidence of the youngsters from rural areas - a chance to show that they too can mean something; that they too can achieve.</p>
-									<p>cYyk ?kqek,axs] fdLer cuk,axs... (We will swing the bat, and make our fortunes)</p>
+									<p> <span style="font-family: 'Hind', sans-serif;"> बल्ला घुमाएंगे, किस्मत बनाएंगे ... </span> (We will swing the bat, and make our fortunes)</p>
 								</div>
 							</div>	
 						</div>
 					</div>
 
-					<div class="portfolio-items">
+					<div class="portfolio-item">
 						<div class="col-lg-6 col-md-6 col-sm-12 work-grid wordpress major">
 							<div class="portfolio-content">
-								<img class="img-responsive" src="images/works/portfolio-1.jpg" alt="">
+								<img class="img-responsive" src="images/works/river.png" alt="">
 								<div style="padding: 5px; text-align: justify-all;">
-									<h5>River Conservation</h5>
+									<h4>River Conservation</h4>
 									<p>Ever since the first civilizations sprung up on their banks, major rivers have continued to be the lifeline of human society across the globe. The increasing pressures of a burgeoning human population and haphazard development have played havoc with the riverine ecosystems. Herein lies the genesis of this project on 'River Conservation'.</p>
 									<p>Rudrabhishek Enterprises Pvt Ltd (REPL), which was working with the State Government of Madhya Pradesh on the 'Narmada River Conservation' project, engaged Posidiff Advisor Private Limited  to conduct a study on the issues involved in sustainable river conservation. Tracing the history of human civilization in terms of rivers through ancient, medieval and modern times, the study examines various phases of the Ganga Action Plan and Yamuna Action Plan, and their impact on rejuvenating the heartline of India. Even as it gives a brief overview of the various drainage systems in India, it delves deeper into the rivers Narmada, Sabarmati and Gomti.</p>
 									<p>The study comes out with a number of recommendations to take forward sustainable river development and conservation. True to its name, Posidiff has been positive and constructive in its approach. </p>
-									<p>dy dy cgrk tk,... (Let the waters flow merrily)</p>
+									<p><span style="font-family: 'Hind', sans-serif;"> कल कल बहता जाए...</span>(Let the waters flow merrily)</p>
 								</div>
 							</div>	
 						</div>
 						
 						<div class="col-lg-6 col-md-6 col-sm-12 work-grid major">
 							<div class="portfolio-content">
-								<img class="img-responsive" src="images/works/realestate.JPG" alt="">
+								<img class="img-responsive" src="images/works/home.png " alt="">
 								<div style="padding: 5px; text-align: justify-all;">
-									<h5>Real Estate Consultancy</h5>
+									<h4>Real Estate Consultancy</h4>
 									<p>Data analysis on Real Estate trends with recommendations on product mix, pricing strategy & sales plan for ASG Infratech at Ghaziabad was another feather in the cap of Posidiff Advisor Private Limited.</p>
 									<p>The study involved a detailed analysis of NCR region followed by Ghaziabad and then Vasundhara area narrowing down to the project site of ASG Infratech. The different facets of the study covered construction trends as also the price trends of the region. An overview of major projects in Vasundhara with construction stage details, the variation in prices of 2 BHK properties, 3BHK and 4BHK properties as also the amenities was also included.</p>
 									<p>SWOT analysis of the project site was chalked out and recommendations on client base, product mix, the amenities to be provided, marketing strategy & delivery schedule as also the USP compliances were given. The byline suggested is as follows:</p>
-									<p>Every lady, be it a housewife or a career women, makes all the difference between a house of bricks &  home of emotions; every lady is thus a homemaker...MAKERS OF HOMES FOR HOME-MAKERS</p>
+									<p>Every lady, be it a housewife or a career women, makes all the difference between a house of bricks & home of emotions; every lady is thus a homemaker...MAKERS OF HOMES FOR HOME-MAKERS</p>
 								</div>
 							</div>	
 						</div>
 
 					</div>
-					<!--<button class="btn btn-readmore" id="show">More Info </button>
-					<button class="btn btn-readmore" id="hide">Less Info </button>-->
-					<div id="director"> 
-						<div class="portfolio-items">
+					<button class="btn btn-readmore" id="show">More Info </button>
+					<button class="btn btn-readmore display_none" id="hide">Less Info </button>
+					<div id="director" class="display_none"> 
+						<div class="row">
 							<div class="col-lg-12 col-md-12 col-sm-12 work-grid elections">
 								<div class="portfolio-content">
 									<div class="col-sm-4" style="padding: 2px">
@@ -418,20 +409,20 @@
 										</div>
 									</div>
 									<div style="padding: 5px; text-align: justify-all;">
-										<h5>‘Matdata Mahotsav’</h5>
+										<h4>‘Matdata Mahotsav’*</h4>
 										<p>Creation of movies of duration 5, 15 and 30 minutes - scripting, editing and giving final shape along with an agency. The three movies covered the events and activities of the ‘Matdata Mahotsav’ in varying detail.</p>
 									</div>
 								</div>	
 							</div>
 						</div>
-						<div class="portfolio-items">
+						<div class="row">
 							<div class="col-lg-4 col-md-6 col-sm-12 work-grid elections">
 							<a href="http://www.amazon.in/Unfolding-Indian-Elections-Journey-Democracy/dp/8123023359" target="_blank">
 								<div class="portfolio-content">
 									<img class="img-responsive" src="images/works/portfolio-3.jpg" alt="">
 									<a href="http://www.amazon.in/Unfolding-Indian-Elections-Journey-Democracy/dp/8123023359" class="btn btn-readmore" target="_blank">More Info</a>
 									<div style="padding: 5px; text-align: justify-all;">
-										<h5>‘Unfolding Indian Elections: Journey of a living democracy’</h5>
+										<h4>‘Unfolding Indian Elections: Journey of a living democracy’*</h4>
 										<p>A coffee table book by  the Election Commision of India, published by Publications Division was released on National Voters’ Day (25th January) 2017 , in the august presence of the Hon’ble President of India, Sh. Pranab Mukherjee.</p>
 									</div>	
 								</div>
@@ -443,7 +434,7 @@
 									<img class="img-responsive" src="images/works/portfolio-4.jpg" alt="">
 									<a href="http://www.amazon.in/Belief-Ballot-Dr-Nasim-Zaidi/dp/8123020899" class="btn btn-readmore" target="_blank">More Info</a>
 									<div style="padding: 5px; text-align: justify-all;">
-										<h5>‘Belief in the Ballot’</h5>
+										<h4>‘Belief in the Ballot’*</h4>
 										<p>A book by the Election Commision of India on 101 Human Stories from Indian Elections, published by Publications Division released on National Voters’ Day (25th January) 2016  in the august presence of the Hon’ble President of India, Sh. Pranab Mukherjee.</p>
 									</div>
 								</div>
@@ -453,23 +444,23 @@
 							<a href="http://www.amazon.in/Belief-Ballot-Dr-Nasim-Zaidi/dp/8123020899" target="_blank">
 								<div class="portfolio-content">
 									<img class="img-responsive" src="images/works/nvf.jpg" alt="">
-									<a href="http://www.amazon.in/Belief-Ballot-Dr-Nasim-Zaidi/dp/8123020899" class="btn btn-readmore" target="_blank">More Info</a>
+									<a href="http://eci.nic.in/eci_main1/nvd.aspx" class="btn btn-readmore" target="_blank">More Info</a>
 									<div style="padding: 5px; text-align: justify-all;">
-										<h5>‘National Voters’ Fest’</h5>
+										<h4>‘National Voters’ Fest’*</h4>
 										<p>A compilation of events and activities during Matdata Mahotsav (Festival of Voters) which also captures the essence of SVEEP (Systematic Voters’ Education & Electoral Participation), the voter education and outreach programme of the Election Commision of India.</p>
 									</div>
 								</div>
 							</a>	
 							</div>
 						</div>
-						<div class="portfolio-items">
+						<div class="row">
 							<div class="col-lg-4 col-md-6 col-sm-12 work-grid elections">
 							<a href="http://ecisveep.nic.in/IC/homeic.html" target="_blank">
 								<div class="portfolio-content">
 									<img class="img-responsive" src="images/works/votereducation.jpg" alt="">
 									<a href="http://ecisveep.nic.in/IC/homeic.html" class="btn btn-readmore" target="_blank">More Info</a>
 									<div style="padding: 5px; text-align: justify-all;">
-										<h5>’International conference on ‘Voter Education for Inclusive, Informed and Ethical participation’</h5>
+										<h4>’International conference on ‘Voter Education for Inclusive, Informed and Ethical participation’*</h4>
 										<p>Active involvement in the conference organized by ECI from 19th - 21st October 2016 at New Delhi with global participation from 25 countries from 6 continents and numerous organizations like UNDP, IDEA and IFES etc. The involvement included coordinating and conducting the conference as also preparation of website, Conference Booklet, Conference Reader, draft resolution as also designing of folders, schedules, pamphlets, kits, conference bags, passes and all other related material for the conference.</p>
 									</div>
 								</div>
@@ -479,7 +470,7 @@
 								<div class="portfolio-content">
 									<img class="img-responsive" src="images/works/smiles.jpg" alt="">
 									<div style="padding: 5px; text-align: justify-all;">
-										<h5>Transforming Lives, Spreading Smiles</h5>
+										<h4>'Transforming Lives, Spreading Smiles'*</h4>
 										<p>Authored a book for UNWFP (United Nations World Food Programme):‘Transforming Lives, Spreading Smiles’ - A Food for Work (FFW) programme - Joint initiative by World Food Programme (WFP) & Forest Department Uttar Pradesh. FFW had the mandate to provide food in remote food deficit areas to forestry workers and the document showcases the success of the programme in addressing the cause of the poorest of the poor. The document involved intensive tour of interior forests of Uttar Pradesh to accumulate case studies and photograph the ground realities. The document was appreciated widely and earned accolades at he UNWFP headquarters in Paris.</p>
 									</div>
 								</div>
@@ -490,19 +481,19 @@
 									<img class="img-responsive" src="images/works/voice.JPG" alt="">
 									<a href="http://voicenet.in/" class="btn btn-readmore" target="_blank">More Info</a>
 									<div style="padding: 5px; text-align: justify-all;">
-										<h5>‘VoICE.NET and VoICE International’</h5>
+										<h4>‘VoICE.NET and VoICE International’*</h4>
 										<p>Management of content on VoICE.NET (Voters’ Information, Communication and Education Network), an online knowledge portal on voter education. It has 23 nations as also renowned organizations across the world as its members.</p> <p>VoICE International is quarterly e-magazine on voter education at VoICE.NET portal. </p>
 									</div>
 								</div>	
 							</a>
 							</div>
 						</div>
-						<div class="portfolio-items">
+						<div class="row">
 							<div class="col-lg-4 col-md-6 col-sm-12 work-grid elections">
 								<div class="portfolio-content">
 									<img class="img-responsive" src="images/works/kaleidoscope.jpg" alt="">
 									<div style="padding: 5px; text-align: justify-all;">
-										<h5>‘Kaleidoscope’</h5>
+										<h4>‘Kaleidoscope’*</h4>
 										<p>A photo book on 151 best SVEEP initiatives by U.P during 2014 Lok Sabha elections released by CEO office, Uttar Pradesh in January 2016. </p>
 									</div>
 								</div>	
@@ -512,7 +503,7 @@
 								<div class="portfolio-content">
 									<img class="img-responsive" src="images/works/stimulus.jpg" alt="">
 									<div style="padding: 5px; text-align: justify-all;">
-										<h5>Stimulus</h5>
+										<h4>'Stimulus'*</h4>
 										<p>Collection of Innovative Practices in U.P Assembly General Elections, 2012 under the aegis of office of CEO U.P.  It was released by the Hon’ble Governor of U.P. in 2013, and distributed in 21 nations all over the world.</p>
 									</div>
 								</div>	
@@ -522,18 +513,18 @@
 								<div class="portfolio-content">
 									<img class="img-responsive" src="images/works/odyssey.jpg" alt="">
 									<div style="padding: 5px; text-align: justify-all;">
-										<h5>‘Odyssey’</h5>
+										<h4>‘Odyssey’*</h4>
 										<p>A kaleidoscopic journey of U.P Assembly Elections 2012 under the aegis of office of CEO U.P. It was released by the Hon’ble Governor of U.P. in 2013, and distributed in 21 nations all over the world.</p>
 									</div>
 								</div>	
 							</div>
 						</div>
-						<div class="portfolio-items">
+						<div class="row">
 							<div class="col-lg-4 col-md-6 col-sm-12 work-grid Health&Nutrition">
 								<div class="portfolio-content">
 									<img class="img-responsive" src="images/works/enlightened.jpg" alt="">
 									<div style="padding: 5px; text-align: justify-all;">
-										<h5>‘Enhancing Lives..Radiating Smiles’</h5>
+										<h4>‘Enhancing Lives..Radiating Smiles’*</h4>
 										<p>Prepared (content & design) a photobook ‘Enhancing Lives..Radiating Smiles’ for State Nutrition Mission (SNM) Uttar Pradesh. The book is a journey of State Nutrition Mission from conception to strategy with an account of State wide initiative and District level initiatives to the achievements as also the way ahead. Released in January 2017.</p>
 									</div>
 								</div>	
@@ -542,7 +533,7 @@
 								<div class="portfolio-content">
 									<img class="img-responsive" src="images/works/voter.jpg" alt="">
 									<div style="padding: 5px; text-align: justify-all;">
-										<h5>Enlightened Voter</h5>
+										<h4>'Enlightened Voter'*</h4>
 										<p>Editor of ‘Enlightened Voter’, e-Newsletter of Chief Electoral Officer (CEO, U.P) in August 2013 & December 2013 and a booklet on Voter Awareness Express in January 2014</p>
 									</div>
 								</div>	
@@ -551,7 +542,7 @@
 								<div class="portfolio-content">
 									<img class="img-responsive" src="images/works/ffw.jpg" alt="">
 									<div style="padding: 5px; text-align: justify-all;">
-										<h5>Food for work</h5>
+										<h4>'Food for work'*</h4>
 										<p>Authored a book for UNWFP (United Nations World Food Programme):‘Food For Work (FFW) in Uttarakhand’ - A joint collaboration of the World Food Programme (WFP) & Forest department, Government of Uttrakhand. The document highlights the model initiatives taken under the FFW Programme to create sustainable livelihood for people who reside in forests.It involved extensive touring and data collection.</p>
 									</div>
 								</div>	
